@@ -15,7 +15,7 @@ COPY . .
 RUN pnpm install
 
 # Bundle app source
-RUN pnpm start
+RUN pnpm build
 
 # Set environment variables
 ENV NODE_ENV=production
