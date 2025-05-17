@@ -12,7 +12,7 @@ RUN npm install pnpm --no-package-lock
 COPY . .
 
 # Install dependencies
-RUN pnpm install --no-frozen-lockfile
+RUN pnpm install
 
 # Bundle app source
 RUN pnpm build
