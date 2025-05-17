@@ -4,7 +4,7 @@ FROM node:18
 WORKDIR /usr/src/app
 
 # Install yarn
-RUN npm install pnpm --no-package-lock
+RUN npm install pnpm -g --no-package-lock
 
 # Copy app source
 # COPY package.json ./
